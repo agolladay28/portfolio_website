@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
   color: #111827;
   background-color: #f9fafb;
@@ -11,10 +11,38 @@ body {
 
 .hero {
   text-align: center;
-  padding: 4rem 1rem;
-  background: linear-gradient(135deg, #111827, #1f2937);
-  color: white;
+  padding: 2.5rem 1rem; /* thinner header */
+  background: linear-gradient(135deg, #c7d2fe, #c7d2fe);
+  color: #111827;
 }
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.hero-title span {
+  font-weight: 300;
+  color: #c7d2fe;
+}
+
+.hero-name {
+  font-family: "Script MT Bold", cursive;
+  font-size: 3rem;
+  font-weight: normal; /* script fonts ignore font-weight */
+  margin-bottom: 0.5rem;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  image-rendering: auto;
+}
+
 
 .hero h1 {
   font-size: 3rem;
@@ -28,7 +56,7 @@ body {
 
 .links a {
   margin: 0 0.75rem;
-  color: #93c5fd;
+  color: #3a516b;
   text-decoration: none;
   font-weight: 500;
 }
